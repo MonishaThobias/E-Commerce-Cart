@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Abinaya",
+      "password": "12345",
+      "email": "abi123@gmail.com",
+      "token": "jwt-token"
+    },
+    {
+      "id": "2",
+      "name": "Arun",
+      "password": "12345",
+      "email": "arun123@gmail.com",
+      "token": "jwt-token"
+    },
+    {
+      "id": "3",
+      "name": "Nithran",
+      "password": "12345",
+      "email": "nithu123@gmail.com",
+      "token": "jwt-token"
+    },
+    {
+      "id": "4",
+      "name": "Ruthran",
+      "password": "12345",
+      "email": "ruth123@gmail.com",
+      "token": "jwt-token"
+    },
+    {
+      "id": "322e",
+      "name": "Moni",
+      "password": "12345",
+      "email": "moni@gmail.com",
+      "token": "5f40be64-d108-4120-b5fe-ac6cae2f3b60"
+    },
+    {
+      "id": "4cd2",
+      "name": "sample",
+      "password": "12345",
+      "email": "sample@gmail.com",
+      "token": "14f55fd4-ddfb-4bdb-8554-7b8ccd5607f9"
+    }
+  ]
+}

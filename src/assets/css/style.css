@@ -1,0 +1,13 @@
+body{
+    background: linear-gradient(to right,rgb(8, 61, 20),rgb(37, 154, 158));
+    color: rgb(8, 61, 20);
+}
+
+.nav-item:hover,.active {
+   
+  border-bottom: 1px solid rgb(8, 61, 20);
+}
+
+.shadow-text {
+  text-shadow: 5px 5px 8px rgba(77, 76, 76, 0.5); 
+}
