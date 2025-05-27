@@ -41,7 +41,7 @@ const router = createBrowserRouter([
     errorComponent: NotFound,
   },
   {path:'/cart', Component: CartView},
-  {path:'checkout', Component: CheckOut}
+ /*  {path:'checkout', Component: CheckOut} */
 
 ]);
 
