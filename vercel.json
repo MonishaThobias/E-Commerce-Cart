@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/api/productdb", "destination": "/api/productdb.js" },
+    { "source": "/api/userdb", "destination": "/api/userdb.js" }
+  ]
+}
