@@ -58,6 +58,7 @@ const NavBar = () => {
         <ul className="navbar-nav mb-2 mb-lg-0 ms-auto">
           {isAuthPage && renderAuthLinks()}
 
+
           {location.pathname === "/" && (
             <>
               <li className="nav-item">

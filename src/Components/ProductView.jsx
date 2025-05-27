@@ -10,7 +10,7 @@ const ProductView = () => {
   const dispatch = useDispatch();
   const products = useSelector((state) => state.product.products);
 
-  // Get user from Redux state
+  
   const user = useSelector((state) => state.user.user);
 
   useEffect(() => {

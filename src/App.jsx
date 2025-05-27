@@ -22,6 +22,7 @@ const router = createBrowserRouter([
    loader: ProductLoader,
     errorComponent: NotFound,
   },
+  
   {path:'/cart', Component: CartView},
  
 ]);

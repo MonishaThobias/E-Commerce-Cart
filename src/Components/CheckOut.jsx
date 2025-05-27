@@ -6,6 +6,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import { useNavigate, NavLink } from "react-router";
 
+
 const CheckOut = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();

@@ -32,6 +32,7 @@ const ProductDetails = () => {
               style={{ height: "400px", objectFit: "contain" }}
             />
           </div>
+          
           <div className="col-md-6">
             <h2>{product.title}</h2>
             <p>{product.description}</p>

@@ -19,6 +19,7 @@ const CartView = () => {
     dispatch(removeFromCart({id})); // Removes a single item from the cart
   };
 
+  
   const handleClearCart = () => {
     dispatch(clearCart()); // Clears all items from the cart
   };

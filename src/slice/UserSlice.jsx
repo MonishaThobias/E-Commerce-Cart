@@ -5,6 +5,7 @@ export const register = createAsyncThunk("http://localhost:3001/users", async (u
   return response.data;
 });
 
+
 const UserSlice = createSlice({
   name: "user",
   initialState: {

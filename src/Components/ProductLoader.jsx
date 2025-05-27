@@ -12,7 +12,7 @@ export const ProductLoader = async ({ params }) => {
     return product;
   }
 
-  // Fallback: fetch from backend if not in store
+  
   try {
     const response = await fetch(`http://localhost:3000/products/${id}`);
     if (!response.ok) {

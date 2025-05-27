@@ -2,6 +2,7 @@ import { createServer } from 'json-server';
 import { readFileSync } from 'fs';
 import path from 'path';
 
+
 export default async function handler(req, res) {
   const dbPath = path.resolve('./src/DB/userdb.json');
   const jsonContent = readFileSync(dbPath, 'utf-8');

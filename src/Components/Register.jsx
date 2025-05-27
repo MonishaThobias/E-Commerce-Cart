@@ -14,9 +14,9 @@ const Register = () => {
 
   const handleOnSubmit = async (e) => {
     e.preventDefault();
-    const newUser = { ...formData, token: uuidv4() }; // Generate unique token
+    const newUser = { ...formData, token: uuidv4() }; 
     try {
-      // Check if the user already exists
+      
       const existingUsers = await axios.get(`http://localhost:3001/users?email=${formData.email}`);
       if (existingUsers.data.length > 0) {
         alert("User already exists with this email.");

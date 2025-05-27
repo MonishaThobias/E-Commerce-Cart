@@ -4,6 +4,7 @@ import { useNavigate } from "react-router";
 const NotFound = () => {
   const navigate = useNavigate();
 
+  
   return (
     <div className="d-flex flex-column justify-content-center align-items-center vh-100">
       <h1 className="display-4 text-danger">404</h1>

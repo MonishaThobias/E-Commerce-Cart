@@ -8,7 +8,9 @@ const Footer = () => {
   <div className="container-fluid justify-content-center">
     <p>All Rights Reserved</p>
   </div>
+  
 </nav>
+
         </>
     
   )
