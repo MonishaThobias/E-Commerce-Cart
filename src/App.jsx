@@ -7,7 +7,6 @@ import ProductDetails from "./Components/ProductDetails";
 import { ProductLoader } from "./Components/ProductLoader";
 import NotFound from "./Components/NotFound";
 import CartView from "./Components/CartView";
-import CheckOut from "./Components/Checkout"; 
 
 
 const router = createBrowserRouter([
